@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   box-hg-gateway:
-    image: "ci-cd-project-producao:088bca0"
+    image: "ci-cd-project-producao:${CODE_SC_HG}"
     ports:
       - 8381:8080
     environment:
