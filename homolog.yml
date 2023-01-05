@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   box-hg-gateway:
-    image: "ci-cd-project-homolog:${CODE_SC_HG}"
+    image: "ci-cd-project-homolog:2ffe597"
     ports:
       - 8380:8080
     environment:
