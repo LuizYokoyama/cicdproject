@@ -9,4 +9,6 @@ services:
       - nome.ambiente=Produção
     deploy:
       replicas: 1
+      restart_policy:
+        condition: none
      
